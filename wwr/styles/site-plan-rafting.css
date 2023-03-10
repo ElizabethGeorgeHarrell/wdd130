@@ -1,0 +1,33 @@
+ :root {
+    --primary-color: #ffffff;
+    --secondary-color: #f3f2e6;
+    --accent1-color: #00578d;
+    --accent2-color: #f1c334;
+
+    --heading-font: '_', serif;
+    --paragraph-font: '_', serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #f3f2e6;
+    --nav-hover-link-color: #00578d;
+    --nav-hover-background-color: #f1c334;
+ }
+
+ body {
+    max-width: 960px;
+    padding: 20px;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+ }
+
+ header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+ }
+
+ p {
+    padding: 25px;
+ }
