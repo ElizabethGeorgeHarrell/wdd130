@@ -11,56 +11,72 @@ body {
 }
 
 h1 {
-    color: #00578d
+    color: #00578d;
+    padding: 1.5rem;
+    padding-left: 3rem;
 }
 
 header img{
-    width: 175px; 
+    width: 165px; 
     height: auto;
+    padding-left: 0.5rem;
 }
 
 nav {
-
+    padding: 15px;
 }
 
 nav a {
-
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
 }
 
 p {
-
-}
-
-aside {
-
+    margin: 1.5rem 0;
+    margin-right: 0rem;
+    padding: 3rem
 }
 
 main img {
-    width: 90px;
+    width: 1000px;
     height: auto;
+    max-width: 400%;
+    margin-left: 3rem;
+
 }
 
 h2 {
-    color: #cf9b00
+    color: #cf9b00;
+    padding: 3rem;
+    padding-left: 3rem;
 
 }
 
+section img {
+    width: 400px;
+    height: auto;
+}
 
 footer {
 
 }
 
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f3f2e6;
+    --accent-1: #00578d;
+    --accent-2: #f1c334;  
+ }
+
 /* Class Selectors */
-.hero {
-
+.hero img {
+    width: 300px;
+    height: auto;
+    float: left;
+    padding-right: 3rem;
 }
+  
 
 
-.box {
-
-}
-
-.indent {
-
-}
 
