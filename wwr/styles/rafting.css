@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #00578d
+}
+
+header img{
+    width: 175px; 
+    height: auto;
+}
+
+nav {
+
+}
+
+nav a {
+
+}
+
+p {
+
+}
+
+aside {
+
+}
+
+main img {
+    width: 90px;
+    height: auto;
+}
+
+h2 {
+    color: #cf9b00
+
+}
+
+
+footer {
+
+}
+
+/* Class Selectors */
+.hero {
+
+}
+
+
+.box {
+
+}
+
+.indent {
+
+}
+
