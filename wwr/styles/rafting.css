@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #f3f2e6;
+    --accent-1: #00578d;
+    --accent-2: #f1c334;}
+
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -11,7 +17,7 @@ body {
 }
 
 h1 {
-    color: #00578d;
+    color: var(--accent-1);
     padding: 1.5rem;
     padding-left: 3rem;
 }
@@ -47,7 +53,7 @@ main img {
 }
 
 h2 {
-    color: #cf9b00;
+    color: var(--accent-2);
     padding: 3rem;
     padding-left: 3rem;
 
@@ -62,19 +68,16 @@ footer {
 
 }
 
-:root {
-    --primary-color: #ffffff;
-    --secondary-color: #f3f2e6;
-    --accent-1: #00578d;
-    --accent-2: #f1c334;  
- }
-
 /* Class Selectors */
-.hero img {
-    width: 300px;
+
+.hero {
+    width: auto;
     height: auto;
-    float: left;
-    padding-right: 3rem;
+    margin: auto;
+}
+
+box {
+
 }
   
 
