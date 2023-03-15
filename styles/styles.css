@@ -14,7 +14,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-h1 {
+h1 { 
     color: steelblue;
     padding-left: 2rem;
     border-bottom: 2px steelblue;
@@ -24,9 +24,9 @@ main img {
     width: 175px; 
     height: auto;
     border: 1px solid steelblue;
-    padding: 0.7px;
-    box-shadow: 0 0 20px gray;
-    margin: 1rem;
+    padding: 1px;
+    box-shadow: 0 0 25px gray;
+    margin: 2rem;
     float: right;
     justify-content: space-evenly;
 
