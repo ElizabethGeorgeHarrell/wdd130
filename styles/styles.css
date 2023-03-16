@@ -17,7 +17,8 @@ body {
 h1 { 
     color: steelblue;
     padding-left: 2rem;
-    border-bottom: 2px steelblue;
+    margin-bottom: 1rem;
+    border-bottom: solid 1px steelblue;
 }
 
 main img {
