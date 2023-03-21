@@ -10,26 +10,40 @@
     --accent-1: #00578d;
     --accent-2: #f1c334;}
 
+header, .grid, footer{
+    display: flex;
+    max-width: 280px;
+    flex-direction: row;
+}
+
+
 body {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     color: var(--accent-1);
-    padding: 1.5rem;
-    padding-left: 3rem;
+    margin: 1rem;
+    float: center;
 }
 
 header img{
-    width: 165px; 
+    width: 200px; 
     height: auto;
-    padding-left: 0.5rem;
+    padding-left: 4rem;
+    float: left;
+
 }
 
 nav {
+    width: 200px;
+    height: auto;
+    display: flex;
     padding: 15px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav a {
@@ -38,10 +52,12 @@ nav a {
     text-decoration: none;
 }
 
-p {
-    margin: 1.5rem 0;
+#p1 {
+    width: auto;
+    height: auto;
+    margin: 0rem 0;
     margin-right: 0rem;
-    padding: 3rem
+    padding: 0rem
 }
 
 main img {
@@ -54,13 +70,17 @@ main img {
 
 h2 {
     color: var(--accent-2);
-    padding: 3rem;
-    padding-left: 3rem;
+    text-align: center;
+}
 
+#p2 {
+    margin: 1.5rem 0;
+    margin-right: 0rem;
+    padding: 3rem
 }
 
 section img {
-    width: 400px;
+    width: 4px;
     height: auto;
 }
 
@@ -70,16 +90,61 @@ footer {
 
 /* Class Selectors */
 
-.hero {
+.grid {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+}
+
+#head-image {
+    width: 250px;
+    height: auto;
+}
+
+#head-nav {
     width: auto;
     height: auto;
+}
+
+.hero {
+    display: flex;
+    width: 1000px;
+    height: auto;
     margin: auto;
+    flex-direction: column;
+    
 }
 
-box {
-
+.hero-header {
+    width: 20 rem;
+    height: auto;
 }
-  
 
+.hero-image {
+    width: 20rem;
+    height: auto;
+}
 
+.box {
+    display: flex;
+    width: 50rem;
+    height: auto;
+    margin: 3rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+} 
+
+.box-image  {
+   width: 2rem;
+   height: auto;
+   margin: 1rem;
+}
+
+.box-paragraph {
+    width: 50rem;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 0.7rem;
+}
 
