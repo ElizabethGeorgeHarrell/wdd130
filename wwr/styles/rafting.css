@@ -10,12 +10,10 @@
     --accent-1: #00578d;
     --accent-2: #f1c334;}
 
-header, .grid, footer{
-    display: flex;
-    max-width: 280px;
-    flex-direction: row;
+header, main, footer{
+    width: 1000px;
+    margin: 0 auto;
 }
-
 
 body {
     font-size: 1rem;
@@ -24,9 +22,7 @@ body {
 }
 
 h1 {
-    color: var(--accent-1);
-    margin: 1rem;
-    float: center;
+    color: var(--primary-color);
 }
 
 header img{
@@ -38,12 +34,14 @@ header img{
 }
 
 nav {
-    width: 200px;
+    width: ;
     height: auto;
     display: flex;
-    padding: 15px;
+    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 nav a {
@@ -61,11 +59,8 @@ nav a {
 }
 
 main img {
-    width: 1000px;
+    width: 100%;
     height: auto;
-    max-width: 400%;
-    margin-left: 3rem;
-
 }
 
 h2 {
@@ -84,61 +79,39 @@ section img {
     height: auto;
 }
 
-footer {
-
-}
-
 /* Class Selectors */
 
-.grid {
+header {
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-}
-
-#head-image {
-    width: 250px;
-    height: auto;
-}
-
-#head-nav {
-    width: auto;
-    height: auto;
+    grid-template-columns: 300px auto;
 }
 
 .hero {
-    display: flex;
-    width: 1000px;
-    height: auto;
-    margin: auto;
-    flex-direction: column;
-    
+    position: relative;
 }
 
-.hero-header {
-    width: 20 rem;
-    height: auto;
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    text-align: center;
 }
 
-.hero-image {
-    width: 20rem;
-    height: auto;
-}
-
-.box {
-    display: flex;
-    width: 50rem;
-    height: auto;
-    margin: 3rem;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
+article {
+    position: absolute;
+    top: 150px;
     background-color: gray;
-} 
+    padding: 3rem;
+    margin: 3rem;
+}
 
-.box-image  {
-   width: 2rem;
+article img  {
+   
+width: 150px;
    height: auto;
    margin: 1rem;
+   float: right;
 }
 
 .box-paragraph {
@@ -146,5 +119,58 @@ footer {
     height: auto;
     margin-left: 10rem;
     margin-top: 0.7rem;
+}
+
+.history {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history h1 {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.history p {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    padding: 3rem;
+    flex-wrap: nowrap;
+}
+
+.history img {
+    width: 200px;
+    height: auto;
+}
+
+.history-paragraph2 {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    padding: 3rem;
+    flex-wrap: nowrap;
+
+}
+
+
+.adventure-images {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.adventure-images img {
+    width: 100px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
 }
 
