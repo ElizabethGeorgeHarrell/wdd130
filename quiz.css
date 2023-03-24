@@ -28,7 +28,6 @@
      width: 650px;
      margin: 0 auto;
      padding: 2rem;
-     border: 1px solid rgba(0, 0, 0, 0.1);
      border-radius: 0.5rem;
      background-color: #eee;
      display: grid;
@@ -53,6 +52,7 @@
    label {
      text-align: right;
      padding-right: 1rem;
+     padding: 0.5rem;
    }
  
    input, select, textarea {
@@ -62,7 +62,7 @@
  
    button {
      margin: 1rem;
-     background-color: #5ab4e9;
+     background-color: #0d9aeb;
      color: #fff;
      border: none;
      border-radius: .5rem;
@@ -71,7 +71,7 @@
    }
    
    button:hover {
-     background-color: #4df836;
+     background-color: #157608;
    }
    
    footer {
@@ -79,6 +79,5 @@
      margin: 1rem;
    }
  
- /* Class Selectors */
  
  
