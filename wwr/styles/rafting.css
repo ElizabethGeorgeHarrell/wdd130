@@ -64,7 +64,7 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 310px;
     margin: auto;
 }
 
@@ -100,6 +100,7 @@ article {
     position: absolute;
     top: 150px;
     background-color: gray;
+    color: #fff;
     margin-left: 20px;
     margin-right: 10px;
     padding: 1rem;
@@ -149,12 +150,18 @@ article p {
     display: flex;
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem;
+
 }
 
 .adventure img {
     width: 300px;
     height: 300px;
-    padding: 3rem;
+    margin: 0rem;
+    right: 0;
+    left: 0;
 }
 
 footer {

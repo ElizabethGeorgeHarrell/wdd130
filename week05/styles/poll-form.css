@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body  {
+    font-family: 'Arvo', serif;
+    font-size: medium;
+    color: #19111f;
+    background: #d7c4db;
+}
+
+header {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    margin: 1rem;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+  }
+
+  fieldset {
+    display: grid;
+    grid-gap: 1.5rem;
+    margin: 1rem;
+    border: 1px #2f2f2f;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  legend {
+    padding: 0.5rem;
+    color: #3c315a;
+    font-size: 1.3em;
+    text-align: left;
+  }
+  
+  label {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+ 
+  input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    vertical-align: bottom;
+    padding: 1rem;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: rgb(121, 72, 235);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: #fa67ff;
+  }
+  
+  footer {
+    text-align: center;
+    margin: 1rem;
+  }
+
+/* Class Selectors */
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
