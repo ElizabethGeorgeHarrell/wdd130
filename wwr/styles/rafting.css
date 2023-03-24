@@ -76,6 +76,78 @@ figcaption {
     text-align: center;
 }
 
+h4 {
+    color: var(--accent-2);
+    text-align: center;
+    font-size: x-large;
+    margin: 3rem;
+}
+
+h5, h6 {
+    color: var(--accent-2);
+    text-align: center;
+    font-size: x-large;
+    margin: 3rem;
+    margin-top: 4rem;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 0rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+  }
+
+  fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: 1px #2f2f2f;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  legend {
+    padding: 0.5rem;
+    color: var(--accent-1);
+    font-size: 1.3em;
+    text-align: left;
+  }
+  
+  label {
+    text-align: left;
+    padding-right: 1rem;
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+ 
+  input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    vertical-align: bottom;
+    padding: 1rem;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: #00578d;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: #037a2f;
+  }
+
 /* Class Selectors */
 
 header {
@@ -159,6 +231,60 @@ article p {
 .adventure img {
     width: 300px;
     height: 300px;
+    margin: 0rem;
+    right: 0;
+    left: 0;
+}
+
+.map {
+    display: flex;
+    width: 100;
+    height: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 3rem;
+}
+
+.map p {
+    width: 100px;
+    height: auto;
+    float: right;
+    padding: 3rem;
+}
+
+.info {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: nowrap;
+    padding: 1rem;
+}
+
+.info p {
+    width: 500px;
+    height: auto;
+}
+
+.employee {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.employee h4 {
+    top: 2px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.employee img {
+    width: 250px;
+    height: auto;
     margin: 0rem;
     right: 0;
     left: 0;
