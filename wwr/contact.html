@@ -41,12 +41,21 @@
                 </fieldset>    
                 <fieldset>    
                 <legend>Problem</legend>    
-                    <label for="problem">What are you messaging us about today?</label>
-                        <select id="problem" name="problem">
-                        <option value="general">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="suggestion">Website Suggestion</option>
-                    </select>
+                    <div>
+                        <label for="problem">What catagory is the problem you are messaging us about today?</label>
+                        <input type="radio" id="inquiry" name="problem" value="General Inquiry"
+                             checked>
+                      <label for="General Inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                      <input type="radio" id="question" name="problem" value="Reservation Question">
+                      <label for="Reservation Question">Reservation Question</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="suggestion" name="problem" value="Website Suggestion">
+                      <label for="Website Suggestion">Website Suggestion</label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <label for="problem">Please explain:</label>
