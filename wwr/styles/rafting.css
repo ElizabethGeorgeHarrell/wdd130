@@ -60,7 +60,7 @@ h2 {
 }
 
 figure {
-    border: thin --secondary-color solid;
+    border: var(--secondary-color) solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
@@ -92,9 +92,9 @@ h5, h6 {
 }
 
 form {
-    width: 700px;
+    width: 600px;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 4rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
@@ -121,7 +121,7 @@ form {
     text-align: left;
     padding-right: 1rem;
   }
-
+  
   input, select, textarea {
     padding: 0.5rem;
     font-size: 1rem;
@@ -238,7 +238,7 @@ article p {
 
 .map {
     display: flex;
-    width: 100;
+    width: 100px;
     height: auto;
     flex-wrap: nowrap;
     align-items: center;
