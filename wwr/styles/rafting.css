@@ -7,8 +7,8 @@
 :root {
     --primary-color: #ffffff;
     --secondary-color: #f3f2e6;
-    --accent-1: #00578d;
-    --accent-2: #f1c334;}
+    --accent-1: #014067;
+    --accent-2: #9b6400;}
 
 header, main, footer{
     width: 1000px;
@@ -44,7 +44,7 @@ nav {
 }
 
 nav a {
-    color: gray;
+    color: #282727;
     padding: 5px;
     text-decoration: none;
 }
