@@ -13,7 +13,6 @@
 header, main, footer{
     width: 1000px;
     margin: 2rem;
-
 }
 
 body {
@@ -326,6 +325,8 @@ footer img {
     display: flex;
     align-items: center;
     flex-direction: row;
+    background-color: #005489b1;
+    max-width: fit-content;
 
 }
 
@@ -388,8 +389,9 @@ footer img {
     margin: 1rem;
 }
 
-table,td {
+table,td, th {
     border: 1px solid var(--accent-1);
     float: center;
     align-items: center;
+    padding: 1rem;
   }
