@@ -12,7 +12,9 @@
 
 header, main, footer{
     width: 1000px;
-    margin: 2rem;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {
@@ -23,6 +25,7 @@ body {
 
 h1 {
     color: var(--primary-color);
+   
 }
 
 header img{
@@ -77,10 +80,12 @@ figcaption {
 }
 
 h4 {
+    position: relative;
     color: var(--accent-2);
     text-align: center;
     font-size: x-large;
-    margin: 3rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 h5, h6 {
@@ -158,7 +163,6 @@ header {
 .hero {
     position: relative;
     margin-bottom: 4rem;
-    box-shadow: 10px gray;
 }
 
 .hero h1 {
@@ -239,7 +243,7 @@ article p {
 
 .map {
     display: flex;
-    width: 100px;
+    width: auto;
     height: auto;
     flex-wrap: nowrap;
     align-items: center;
@@ -317,7 +321,6 @@ footer img {
     align-items: center;
     padding: 3rem;
     max-width: 1000px;
-    float: center;
 }
 
 .home {
@@ -325,7 +328,7 @@ footer img {
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: #00548985;
+    background-color: var(--accent-1);
     max-width: fit-content;
     box-shadow: 0 0 25px gray;
 
@@ -339,10 +342,11 @@ footer img {
 }
 
 .home p {
-    align-items: right;
     width: 315px;
     height: auto;
-    padding: 0.5rem;    
+    padding: 0.5rem;
+    color: #ddd;
+    margin-right: 3rem;   
 }
 
 .box {
@@ -370,7 +374,6 @@ footer img {
     align-items: center;
     padding: 2rem;
     width: 20rem;
-    float: center;
 }
 
 .locations img {
@@ -393,7 +396,6 @@ footer img {
 
 table,td, th {
     border: 1px solid var(--accent-1);
-    float: center;
     align-items: center;
     padding: 1rem;
   }
